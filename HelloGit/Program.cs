@@ -10,8 +10,10 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
+            //向屏幕打印一句问候语。
             Console.WriteLine("Hello Git");
 
+            //暂停程序。
             Console.ReadLine();
         }
     }
