@@ -17,6 +17,11 @@ namespace HelloGit
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// 打印集合。
+        /// </summary>
+        /// <typeparam name="T">集合的类型。</typeparam>
+        /// <param name="collection">一个集合。</param>
         static void Print<T>(IEnumerable<T> collection)
         {
             foreach (var item in collection)
