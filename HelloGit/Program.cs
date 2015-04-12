@@ -29,5 +29,25 @@ namespace HelloGit
                 Console.WriteLine(item);
             }
         }
+
+        /// <summary>
+        /// 清除指定行的内容。
+        /// </summary>
+        /// <param name="lineNumber">要清楚内容行的行号。</param>
+        static void ClearLine(int lineNumber)
+        {
+            int left = Console.CursorLeft;
+            int top = Console.CursorTop;
+
+            Console.SetCursorPosition(0, lineNumber);
+            Console.ForegroundColor = Console.BackgroundColor;
+
+            for (int i = 0; i < Console.BufferWidth; i++)
+            {
+                Console.Write(" ");
+            }
+
+            Console.SetCursorPosition(left, top);
+        }
     }
 }
