@@ -33,7 +33,7 @@ namespace HelloGit
         /// <summary>
         /// 清除指定行的内容。
         /// </summary>
-        /// <param name="lineNumber">要清楚内容行的行号。</param>
+        /// <param name="lineNumber">要清除内容行的行号。</param>
         static void ClearLine(int lineNumber)
         {
             int left = Console.CursorLeft;
