@@ -51,11 +51,11 @@ namespace HelloGit
         }
 
         /// <summary>
-        /// 模拟制造一个 BUG。
+        /// 模拟制造一个 Bug。
         /// </summary>
         static void MakeBug()
         {
-            throw new Exception();
+            throw new Exception("别担心！只是一个模拟的 Bug！");
         }
     }
 }
