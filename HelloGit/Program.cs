@@ -13,8 +13,6 @@ namespace HelloGit
             //向屏幕打印一行问候语。
             Console.WriteLine("Hello Git");
 
-            MakeBug();
-
             //暂停程序。
             Console.ReadLine();
         }
@@ -50,11 +48,6 @@ namespace HelloGit
             }
 
             Console.SetCursorPosition(left, top);
-        }
-
-        static void MakeBug()
-        {
-            throw new Exception();
         }
     }
 }
