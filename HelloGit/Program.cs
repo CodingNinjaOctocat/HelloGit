@@ -16,5 +16,13 @@ namespace HelloGit
             //暂停程序。
             Console.ReadLine();
         }
+
+        static void Print<T>(IEnumerable<T> collection)
+        {
+            foreach (var item in collection)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }
